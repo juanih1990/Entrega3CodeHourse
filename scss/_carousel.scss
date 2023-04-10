@@ -1,0 +1,14 @@
+@media (min-width: 780px) {
+ /* ----------------------------------------------------------------------------------------      Galeria  ------------------------------------------------------ */
+    /* carrusel */
+    .carousel__imgnormalizada img {
+        width: 100% !important;
+        height: 600px !important;
+        object-fit: contain;
+        /* max-height: 225px !important; */
+    } 
+    
+    .section__Carousel--MargenTop{
+        margin-top: 50px;
+   }
+}

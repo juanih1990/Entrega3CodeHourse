@@ -60,6 +60,10 @@ a:hover {
     margin-top: 8%;
     color: rgb(185, 179, 179);
   }
+  /* ----------------------------------------------------------------------------------------      pagina ubicacion  ------------------------------------------------------ */
+  section div iframe {
+    border-radius: 0.8em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
