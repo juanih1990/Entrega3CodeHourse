@@ -1,5 +1,4 @@
 @media(min-width: 780px){
-      /* --------------------------------------------------      Logo para (index-ubicacion-galeria-contractanos-quienesSomos)  ------------------------------------------------------ */
       header {
              
                 div.header__CardLogo--ColorFondo{
@@ -34,9 +33,7 @@
                 }
       } 
 }
-////////////////////////////////HEADER MOBIE////////////////////
 @media(max-width: 780px){
-       /* ----------------------------------------------------------------------------------------      pagina index------------------------------------------------------ */
      div.marcas__Img--Size{
         height: 150px !important;
     } 

@@ -22,7 +22,6 @@ a:hover {
 }
 
 @media (min-width: 780px) {
-  /* --------------------------------------------------      Logo para (index-ubicacion-galeria-contractanos-quienesSomos)  ------------------------------------------------------ */
   header div.header__CardLogo--ColorFondo {
     height: 100vh;
     background-image: url("../img/carpint.jpg");
@@ -53,7 +52,6 @@ a:hover {
   }
 }
 @media (max-width: 780px) {
-  /* ----------------------------------------------------------------------------------------      pagina index------------------------------------------------------ */
   div.marcas__Img--Size {
     height: 150px !important;
   }
@@ -165,7 +163,6 @@ a:hover {
   }
 }
 @media (min-width: 780px) {
-  /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
   footer.footer__From--MargenTop70 {
     margin-top: 70px;
   }
