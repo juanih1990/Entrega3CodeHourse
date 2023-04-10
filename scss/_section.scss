@@ -16,5 +16,42 @@
             }
          }
      } 
+      /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
+    section{
+        div{
+            i{
+                font-size: 2em;
+                color: white;
+            }
+        }
+        div.contactanos__AlinearItem--JustifyContentEnd{
+            justify-content: end;
+        }
+        div.contactanos__AlinearItem--JustifyContentCenter{
+            justify-content: center;
+        }
+        div.contactanos__AlinearItem--JustifyContentStart{
+            justify-content: start;
+        }
+        div.section__CardDirecciones--MargenTop{
+            margin-top: 120px;
+        }
+        div{
+            i.section__CardDirecciones--MargenTop{
+                margin-top: 120px;
+            }
+        }
+    }
+     /* ----------------------------------------------------------------------------------------      ¿Quienes Somos?  ------------------------------------------------------ */
+    section{
+        div.section__CardImg--MargenTop{
+            margin-top: 80px;
+        }
+        div{
+            img.section__CardImg--ocontaint{
+                object-fit: cover !important;
+            }
+        }
+    } 
 }
     
