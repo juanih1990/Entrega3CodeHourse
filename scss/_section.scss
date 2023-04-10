@@ -1,5 +1,4 @@
 @media (min-width: 780px) {
-    /* ----------------------------------------------------------------------------------------      pagina index  ------------------------------------------------------ */
     section{
         span{
             font-family: 'Lobster', cursive;
@@ -7,17 +6,11 @@
             margin-top: 8%;
             color: rgb(185, 179, 179);
         }
-    } 
-     /* ----------------------------------------------------------------------------------------      pagina ubicacion  ------------------------------------------------------ */
-     section{
          div{
             iframe{
                 border-radius: .8em;
             }
          }
-     } 
-      /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
-    section{
         div{
             i{
                 font-size: 2em;
@@ -41,9 +34,6 @@
                 margin-top: 120px;
             }
         }
-    }
-     /* ----------------------------------------------------------------------------------------      ¿Quienes Somos?  ------------------------------------------------------ */
-    section{
         div.section__CardImg--MargenTop{
             margin-top: 80px;
         }
@@ -53,5 +43,39 @@
             }
         }
     } 
+}
+//////////////////////////////////view mobie/////////////
+@media(max-width: 780px){
+    section{
+        span{
+            font-family: 'Lobster', cursive;
+            font-size: 2em;
+            margin-top: 8%;
+            color: rgb(185, 179, 179);
+        }
+        div{
+            iframe{
+                border-radius: .8em;
+            }
+        }
+        div{
+            i{
+                font-size: 1.5em;
+                color: white;
+            }
+        } 
+        .contactanos__AlinearItem--JustifyContentStartMobie{
+            justify-content: start !important;
+        }
+        .section__CardDirecciones--MargenTop{
+            margin-top: 30px;
+        }
+        div.section__CardImg--MargenTopMobie{
+            margin-top: 30px;
+        }
+        div.contactanos__AlinearItem--JustifyContentCenterMobie{
+            justify-content: center;
+        }
+    }    
 }
     
