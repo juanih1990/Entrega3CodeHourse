@@ -1,0 +1,20 @@
+a{
+    font-weight: bold !important;
+    text-decoration: none;
+    color: white;
+
+        &:hover{
+            color: rgb(102, 134, 156) !important;
+            font-size: 1.3em !important;
+            transition: .5s;
+        }
+}
+.body__fondoSecundario--BgColor{
+    background: $bg-FondoSecundario;
+}
+.navColor{
+    background: $navColor;
+}
+.itemColor{
+    color: $itemColor;
+}

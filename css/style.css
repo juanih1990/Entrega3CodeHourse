@@ -1,0 +1,65 @@
+a {
+  font-weight: bold !important;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(102, 134, 156) !important;
+  font-size: 1.3em !important;
+  transition: 0.5s;
+}
+
+.body__fondoSecundario--BgColor {
+  background: linear-gradient(to right, #b0aa9a, #000);
+}
+
+.navColor {
+  background: linear-gradient(to right, #f8f7f4, #f8f9fa);
+}
+
+.itemColor {
+  color: #f8f7f4;
+}
+
+@media (min-width: 780px) {
+  /* ----------------------------------------------------------------------------------------      pagina index  ------------------------------------------------------ */
+  header div .header__CardLogo--ColorFondo {
+    height: 100vh;
+    background-image: url("../img/carpint.jpg");
+    background-size: cover;
+  }
+  header div .header__CardLogo--Title {
+    background: linear-gradient(to right, #8B866f, #FCD9B8);
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 100px;
+    height: 150px;
+    border-radius: 0.3em;
+  }
+  header div .header__CardLogo--Title span {
+    font-size: 3em;
+    height: 60px;
+    width: 80px;
+    color: rgb(17, 15, 15);
+    font-family: "Baskervville", serif;
+  }
+  header div .header__CardLogo--SubTitle {
+    width: 100px;
+    height: 150px;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #055160;
+    font-family: "Lobster", cursive;
+  }
+}
+@media (min-width: 780px) {
+  /* ----------------------------------------------------------------------------------------      pagina index  ------------------------------------------------------ */
+  section span {
+    font-family: "Lobster", cursive;
+    font-size: 2em;
+    margin-top: 8%;
+    color: rgb(185, 179, 179);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

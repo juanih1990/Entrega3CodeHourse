@@ -1,0 +1,38 @@
+@media(min-width: 780px){
+      /* ----------------------------------------------------------------------------------------      pagina index  ------------------------------------------------------ */
+      header{
+             div{
+                .header__CardLogo--ColorFondo{
+                    height: 100vh;
+                    background-image: url("../img/carpint.jpg");
+                    background-size: cover;
+                }
+                .header__CardLogo--Title{
+                    background: linear-gradient(to right, #8B866f, #FCD9B8);
+                    margin-top: 2%;
+                    margin-left: 7%;
+                    width: 100px;
+                    height: 150px;
+                    border-radius: 0.3em;
+                }
+                .header__CardLogo--Title{
+                    span{
+                        font-size: 3em;
+                        height: 60px;
+                        width: 80px;
+                        color: rgb(17, 15, 15);
+                        font-family: 'Baskervville', serif;
+                    }
+                }
+                .header__CardLogo--SubTitle{
+                    width: 100px;
+                    height: 150px;
+                    margin-top: 2%;
+                    margin-left: 2%;
+                    color: #055160;
+                    font-family: 'Lobster', cursive;
+                }
+             }
+
+      } 
+}
