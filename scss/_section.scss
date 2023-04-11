@@ -2,15 +2,9 @@
     section{
         span{
             font-family: $font-FamilyLogoSubtitle;
-<<<<<<< HEAD
-            font-size: 2em;
-            margin-top: 8%;
-            color: rgb(185, 179, 179);
-=======
             font-size: $fz-2em;
             margin-top: $mtp-8;
             color: $color-span;
->>>>>>> sass
         }
          div{
             iframe{
