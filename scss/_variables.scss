@@ -3,6 +3,9 @@ $bg-FondoSecundario : linear-gradient(to right, #b0aa9a, #000);
 $navColor : linear-gradient(to right, #f8f7f4, #f8f9fa);
 $itemColor : #f8f7f4;
 $headerColorLogo : linear-gradient(to right, #8B866f, #FCD9B8);
+$color-span: rgb(185, 179, 179);
+$color-span--title: rgb(17, 15, 15);
+
 
 
 //variables Font
@@ -11,3 +14,21 @@ $font-FamilyLogoSubtitle : 'Lobster', cursive;
 $font-FamilyLogoTitle: 'Baskervville', serif;
 $font-ColorTitle:  rgb(17, 15, 15);
 $font-ColorSubTitle: #055160;
+$fz-15em: 1.5em;
+$fz-13em: 1.3em;
+$fz-2em: 2em;
+$fz-3em: 3em;
+
+//margenes
+$mt-120: 120px;
+$mt-80 : 80px;
+$mt-70: 70px;
+$mt-30: 30px;
+$mt-5: 5px;
+$mtp-2: 2%;
+$mtp-8: 8%;
+$m-10: 10px;
+
+//border radius
+$br-08: .8em;
+$br-03: .3em;

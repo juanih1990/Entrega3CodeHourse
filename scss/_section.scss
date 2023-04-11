@@ -1,19 +1,19 @@
 @media (min-width: 780px) {
     section{
         span{
-            font-family: 'Lobster', cursive;
-            font-size: 2em;
-            margin-top: 8%;
-            color: rgb(185, 179, 179);
+            font-family: $font-FamilyLogoSubtitle;
+            font-size: $fz-2em;
+            margin-top: $mtp-8;
+            color: $color-span;
         }
          div{
             iframe{
-                border-radius: .8em;
+                border-radius: $br-08;
             }
          }
         div{
             i{
-                font-size: 2em;
+                font-size: $fz-2em;
                 color: white;
             }
         }
@@ -27,15 +27,15 @@
             justify-content: start;
         }
         div.section__CardDirecciones--MargenTop{
-            margin-top: 120px;
+            margin-top: $mt-120;
         }
         div{
             i.section__CardDirecciones--MargenTop{
-                margin-top: 120px;
+                margin-top: $mt-120;
             }
         }
         div.section__CardImg--MargenTop{
-            margin-top: 80px;
+            margin-top: $mt-80;
         }
         div{
             img.section__CardImg--ocontaint{
@@ -48,19 +48,19 @@
 @media(max-width: 780px){
     section{
         span{
-            font-family: 'Lobster', cursive;
-            font-size: 2em;
-            margin-top: 8%;
-            color: rgb(185, 179, 179);
+            font-family: $font-FamilyLogoSubtitle;
+            font-size: $fz-2em;
+            margin-top: $mtp-8;
+            color: $color-span;
         }
         div{
             iframe{
-                border-radius: .8em;
+                border-radius: $br-08;
             }
         }
         div{
             i{
-                font-size: 1.5em;
+                font-size: $fz-15em;
                 color: white;
             }
         } 
@@ -68,10 +68,10 @@
             justify-content: start !important;
         }
         .section__CardDirecciones--MargenTop{
-            margin-top: 30px;
+            margin-top: $mt-30;
         }
         div.section__CardImg--MargenTopMobie{
-            margin-top: 30px;
+            margin-top: $mt-30;
         }
         div.contactanos__AlinearItem--JustifyContentCenterMobie{
             justify-content: center;
