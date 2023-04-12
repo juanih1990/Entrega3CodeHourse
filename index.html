@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muebles Quemu, Carpinteria">
+    <meta name="keywords" content="carpinteria,qemu quemu, la pampa carpinteria, quemu quemu carpinteria">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +17,8 @@
     <title>Muebles Quemu</title>
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- aos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> <!-- aanimate.css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,8 +26,8 @@
         <div class="row">
             <header class="col-xl-9 col-12 mh-100">
                   <!-- Logo y Fondo -->     
-                  <div class="row header__CardLogo--ColorFondo">
-                      <div class="col-xl-6 col-12 header__CardLogo--Title d-flex align-items-end justify-content-center">
+                  <div class="row header__CardLogo--ColorFondo ">
+                      <div class="col-xl-6 col-12 header__CardLogo--Title d-flex align-items-end justify-content-center animate__animated animate__bounce">
                           <span class="mb-2">MQ</span>
                       </div>
                       <div class=" col-xl-6 col-6 header__CardLogo--SubTitle d-flex align-items-end">
@@ -76,7 +80,7 @@
                 <!-- fila3 Frace -->
                 <section class="row h-25 d-flex align-items-end " >
                    <div class="col-xl-12 col-12 d-flex justify-content-center" >
-                    <span>"Muebles Quemu"... <br> tu estilo importa!</span>
+                    <span data-aos="flip-left" data-aos-duration="3000">"Muebles Quemu"... <br> tu estilo importa!</span>
                    </div>         
                   </section>
                 <!-- fila4 redes sociales -->
@@ -99,5 +103,11 @@
     </div>    
     <!-- script de boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- inicializo aos -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
