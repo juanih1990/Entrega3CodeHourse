@@ -1,10 +1,13 @@
+@mixin __Slogan{
+    font-family: $font-FamilyLogoSubtitle;
+    font-size: $fz-2em;
+    margin-top: $mtp-8;
+    color: $color-span;
+}
 @media (min-width: 780px) {
     section{
         span{
-            font-family: $font-FamilyLogoSubtitle;
-            font-size: $fz-2em;
-            margin-top: $mtp-8;
-            color: $color-span;
+           @include __Slogan();
         }
          div{
             iframe{
@@ -47,10 +50,7 @@
 @media(max-width: 780px){
     section{
         span{
-            font-family: $font-FamilyLogoSubtitle;
-            font-size: $fz-2em;
-            margin-top: $mtp-8;
-            color: $color-span;
+            @include __Slogan();
         }
         div{
             iframe{

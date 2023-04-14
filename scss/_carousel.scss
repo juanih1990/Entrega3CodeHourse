@@ -1,8 +1,11 @@
-@media (min-width: 780px) {
-    .carousel__imgnormalizada img {
+@mixin __Carousel-ImagenNormalizada{
         width: 100% !important;
         height: 600px !important;
         object-fit: contain;
+}
+@media (min-width: 780px) {
+    .carousel__imgnormalizada img {
+        @include __Carousel-ImagenNormalizada();
     } 
     .section__Carousel--MargenTop{
         margin-top: 50px;
@@ -10,9 +13,7 @@
 }
 @media (max-width: 780px){
     .carousel__imgnormalizada img {
-        width: 100% !important;
-        height: 600px !important;
-        object-fit: contain;
+        @include __Carousel-ImagenNormalizada();
     } 
     .section__Carousel--MargenTopMobie{
          margin-top: 5px;
