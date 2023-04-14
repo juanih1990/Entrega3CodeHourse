@@ -1,3 +1,27 @@
+@mixin __Logo--Title{
+    background: $headerColorLogo;
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 100px;
+    height: 150px;
+    border-radius: $br-03;
+}
+@mixin __FontLogo--title{
+    font-size: $fontLogoTitle;
+    height: 60px;
+    width: 80px;
+    color: $font-ColorTitle;
+    font-family: $font-FamilyLogoTitle;
+}
+@mixin __Logo--Subtitle{
+    width: 100px;
+    height: 150px;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: $font-ColorSubTitle;
+    font-family: $font-FamilyLogoSubtitle;
+}
+
 @media(min-width: 780px){
       header {
              
@@ -7,29 +31,15 @@
                     background-size: cover;
                 }
                 div.header__CardLogo--Title{
-                    background: $headerColorLogo;
-                    margin-top: 2%;
-                    margin-left: 7%;
-                    width: 100px;
-                    height: 150px;
-                    border-radius: $br-03;
+                  @include __Logo--Title(); 
                 }
                 div.header__CardLogo--Title{
                     span{
-                        font-size: $fontLogoTitle;
-                        height: 60px;
-                        width: 80px;
-                        color: $font-ColorTitle;
-                        font-family: $font-FamilyLogoTitle;
+                        @include __FontLogo--title();
                     }
                 }
                 div.header__CardLogo--SubTitle{
-                    width: 100px;
-                    height: 150px;
-                    margin-top: 2%;
-                    margin-left: 2%;
-                    color: $font-ColorSubTitle;
-                    font-family: $font-FamilyLogoSubtitle;
+                   @include __Logo--Subtitle();
                 }
       } 
 }
@@ -39,29 +49,15 @@
     } 
      header{
         div.header__CardLogo--Title{
-            background: linear-gradient(to right, #8B866f, #FCD9B8);
-            margin-top: 2%;
-            margin-left: 7%;
-            width: 100px;
-            height: 150px;
-            border-radius: $br-03;
+            @include __Logo--Title();
         }
         div.header__CardLogo--Title{
             span{
-                font-size: $fz-3em;
-                height: 60px;
-                width: 80px;
-                color: $color-span--title;
-                font-family: $font-FamilyLogoTitle;
+             @include __FontLogo--title();
             }
         }
         div.header__CardLogo--SubTitle{
-            width: 100px;
-            height: 150px;
-            margin-top: 2%;
-            margin-left: 2%;
-            color: #055160;
-            font-family: $font-FamilyLogoSubtitle;
+            @include __Logo--Subtitle();
         }
      } 
 }
